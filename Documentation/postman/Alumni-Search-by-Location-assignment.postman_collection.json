@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "d8aace08-9bfa-4667-85cc-565aea935dc0",
-		"name": "Vaave",
+		"name": "Alumni-Search-by-Location-assignment",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "17063191",
 		"_collection_link": "https://usmphpdev.postman.co/workspace/My-Workspace~c4ad8db1-9734-4ed5-8158-1ee96a1ebe85/collection/17063191-d8aace08-9bfa-4667-85cc-565aea935dc0?action=share&source=collection_link&creator=17063191"
@@ -20,7 +20,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"id\":1,\r\n\"name\":\"Praveen\",\r\n\"email\":\"praveen@example.com\",\r\n\"location\":\"Canada\",\r\n\"latitude\":\"40.7128\",\r\n\"longitude\":\"-74.0060\"\r\n}",
+					"raw": "{\r\n\"id\":1,\r\n\"name\":\"Praveen123456\",\r\n\"email\":\"praveen123456@example.com\",\r\n\"location\":\"Canada\",\r\n\"latitude\":\"40.7128\",\r\n\"longitude\":\"-74.0060\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -28,13 +28,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost/vaave/src/api/UpdateUser.php",
+					"raw": "http://localhost/Alumni-Search-by-Location-assignment/src/api/UpdateUser.php",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"path": [
-						"vaave",
+						"Alumni-Search-by-Location-assignment",
 						"src",
 						"api",
 						"UpdateUser.php"
@@ -64,13 +64,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost/vaave/src/api/searchByLocation.php",
+					"raw": "http://localhost/Alumni-Search-by-Location-assignment/src/api/searchByLocation.php",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"path": [
-						"vaave",
+						"Alumni-Search-by-Location-assignment",
 						"src",
 						"api",
 						"searchByLocation.php"
