@@ -11,7 +11,10 @@ class User{
         if (!$conn) {
             echo 'Connection Aborted';
         } else {
-        
+			
+		/* for Filters near by user based on Location use url: 
+		   Example: http://localhost/vaave/src/user.php?latitude=17.43258940&longitude=78.40706910&radius=5*/
+		 
         $latitude = isset($_GET['latitude']) ? $_GET['latitude'] : '';
         $longitude = isset($_GET['longitude']) ? $_GET['longitude'] : '';
         $radius = isset($_GET['radius']) ? $_GET['radius'] : 10;
